@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Projeto de Criptografia</title>
+    
+</head>
+<body>
+    <div class="panel dark">
+        <h1>Boas vindas ao primeiro desafio!</h1>
+        <p>Insira seu texto abaixo:</p>
+        <textarea id="inputText" rows="4" cols="50"></textarea><br>
+        <button onclick="encrypt()">Criptografar</button>
+        <button onclick="decrypt()">Descriptografar</button><br>
+    </div>
+    <div class="panel">
+        <img id="imagemB" src="./assets/image1.png" alt="auto">
+        <p>Resultado:</p>
+        <textarea id="outputText" rows="4" cols="50"></textarea><br>
+        <button onclick="copyToClipboard()">Copiar</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
+
+
